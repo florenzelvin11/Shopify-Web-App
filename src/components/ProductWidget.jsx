@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { formatter } from '../utils/helpers'
 
 const ProductWidget = ({ product }) => {
   const { handle, title } = product.node
@@ -33,7 +32,7 @@ const ProductWidget = ({ product }) => {
         </div>
       </div>
       <h3 className="mt-4 text-lg font-medium text-gray-900">{title}</h3>
-      <p className="mt-1 text-sm text-gray-700">{formatter.format(price)}</p>
+      <p className="mt-1 text-sm text-gray-700">{`$${price}`}</p>
     </Link>
   )
 }
