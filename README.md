@@ -37,3 +37,8 @@ This will start the Vite development server. By default, it runs at [http://loca
 
 - For more information on setting up your Shopify Storefront API, visit the official [Shopify documentation](https://shopify.dev/docs/api/storefront).
 
+## Time Box
+Starting Date & Time: 26/09/2024 8:30 PM
+
+Finishing Date & Time: 27/09/2024 12:00 AM
+
