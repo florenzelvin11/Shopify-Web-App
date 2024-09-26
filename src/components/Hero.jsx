@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <div className="my-48 mx-auto max-w-7xl px-4 sm:mt-24 md:mt-40 text-center">
+    <div className="my-48 mx-auto max-w-7xl px-4 sm:mt-24 md:mt-48 text-center">
       <h1 className="font-extrabold text-gray-900">
         <p className="text-xl sm:text-3xl md:text-4xl">Brand Collective</p>
         <p className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-blue-500 to-purple-500 text-4xl sm:text-6xl md:text-7xl">Best Snowboards</p>
